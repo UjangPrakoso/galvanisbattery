@@ -281,12 +281,21 @@ section.bg .div-card .a-button {
 /* . */
 /* . */
 /* ====== test ====== */
-.products-list {
+.products-grid {
   padding-inline: 0.5fr;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-content: center;
   gap: 1em;
+}
+.products-flex {
+  padding-inline: 0.5fr;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2em;
+  column-gap: 4em;
 }
 .product {
   /* display: flex; */
